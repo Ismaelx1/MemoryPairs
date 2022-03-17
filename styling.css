@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    background-image: linear-gradient(45deg, rgb(140, 202, 165), 
+    rgb(198,159,197), rgb(248, 160, 133), rgb(52,219,216));
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover {
+
+    color: azure;
+    background-color: lightslategray;
+}
+#cards {
+    width: 100%;
+ 
+    display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+#cards > div {
+   
+    border: 2px solid white;
+    border-radius: 10px;
+   margin: 5px 40px 0px 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 80px;
+   overflow-wrap: break-word;
+    height: 300px;
+    width: 200px;
+    overflow: nowrap;
+}
+
+#displayer {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background-color: aliceblue;
+}
+
+#cards > div:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
